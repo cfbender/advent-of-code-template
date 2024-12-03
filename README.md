@@ -1,4 +1,29 @@
-# aoc-template
+# Advent of Code Haskell Template
+
+This is a fork of [samcoy3's for their haskell starter repo](https://github.com/samcoy3/advent-of-code-template) with some changes and scripts for my usage.
+
+## Additional dependencies
+- `regex-tdfa`: for regex operations just in case
+- `split`: for string and list splitting
+- `range`: for range operations
+- `criterion`: for benchmarking
+- `array`: when vector doesn't cut it 
+- `parallel`: for parallelizing when you're bad at optimizing
+
+## Tests
+
+The repo now has a `test` directory where unit tests live. I like to put the sample input there and the expected result.
+
+## Additional scripts and helpers
+
+I've added some helper scripts that do common actions like `test.sh` `bench.sh` and `day.sh`
+
+If using nushell, you can simply `source haskell.nu` and the scripts will be provided for you in the REPL as `test`, `bench` and `day`.
+
+Run a day like `day 1` or run it's example tests like `test 1`.
+
+
+## samcoy3's instructions (these should generally all hold true still but idk)
 
 This is an (opinionated) Advent of Code template for solutions in Haskell.
 
