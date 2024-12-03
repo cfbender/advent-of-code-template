@@ -2,7 +2,9 @@ module Util.Parsers where
 
 import Data.Attoparsec.Text
 import Data.Map (Map)
-import qualified Data.Map as Map
+import Data.Map qualified as Map
+import Data.Vector (Vector)
+import Data.Vector qualified as Vector
 
 {-
 This module contains a list of parsers and combinators which are likely to be useful for Advent of Code problems.
@@ -10,9 +12,11 @@ This module contains a list of parsers and combinators which are likely to be us
 
 ------------ PARSERS ------------
 
+type Coordinate = (Int, Int)
+
 -- Takes a "mapper" "function that might map a char to a datatype, and an initial index (usually 0 or 1)
 -- Returns a parser that returns a map from coordinates to all instances where the function returns Just
-coordinateParser :: (Char -> Maybe a) -> Int -> Parser (Map (Int, Int) a)
+coordinateParser :: (Char -> Maybe a) -> Int -> Parser (Map Coordinate a)
 coordinateParser mapper start = coordinateParser' start start
   where
     coordinateParser' x y =
