@@ -66,8 +66,9 @@
 
 **Total: **
 <!--- benchmarking table --->
+## Template
 
-This is a fork of [samcoy3's for their haskell starter repo](https://github.com/samcoy3/advent-of-code-template) with some changes and scripts for my usage.
+This is a fork of [samcoy3's haskell starter repo](https://github.com/samcoy3/advent-of-code-template) with some changes and scripts for my usage.
 
 ## Additional dependencies
 - `regex-tdfa`: for regex operations just in case
