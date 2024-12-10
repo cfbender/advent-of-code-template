@@ -1,4 +1,71 @@
 # Advent of Code Haskell Template
+<!--- advent_readme_stars table --->
+## <YEAR> Results
+<!--- fill in spots with ⭐ --->
+<!--- fill year with current year--->
+
+| Day | Part 1 | Part 2 |
+| :---: | :---: | :---: |
+| [Day 1](https://adventofcode.com/YEAR/day/1) |   |   |
+| [Day 2](https://adventofcode.com/YEAR/day/2) |  |  |
+| [Day 3](https://adventofcode.com/YEAR/day/3) |  |  |
+| [Day 4](https://adventofcode.com/YEAR/day/4) |  |  |
+| [Day 5](https://adventofcode.com/YEAR/day/5) |  |  |
+| [Day 6](https://adventofcode.com/YEAR/day/6) |  |  |
+| [Day 7](https://adventofcode.com/YEAR/day/7) |  |  |
+| [Day 8](https://adventofcode.com/YEAR/day/8) |  |  |
+| [Day 9](https://adventofcode.com/YEAR/day/9) |  |  |
+| [Day 10](https://adventofcode.com/YEAR/day/10) |  |  |
+| [Day 11](https://adventofcode.com/YEAR/day/11) |  |  |
+| [Day 12](https://adventofcode.com/YEAR/day/12) |  |  |
+| [Day 13](https://adventofcode.com/YEAR/day/13) |  |  |
+| [Day 14](https://adventofcode.com/YEAR/day/14) |  |  |
+| [Day 15](https://adventofcode.com/YEAR/day/15) |  |  |
+| [Day 16](https://adventofcode.com/YEAR/day/16) |  |  |
+| [Day 17](https://adventofcode.com/YEAR/day/17) |  |  |
+| [Day 18](https://adventofcode.com/YEAR/day/18) |  |  |
+| [Day 19](https://adventofcode.com/YEAR/day/19) |  |  |
+| [Day 20](https://adventofcode.com/YEAR/day/20) |  |  |
+| [Day 21](https://adventofcode.com/YEAR/day/21) |  |  |
+| [Day 22](https://adventofcode.com/YEAR/day/22) |  |  |
+| [Day 23](https://adventofcode.com/YEAR/day/23) |  |  |
+| [Day 24](https://adventofcode.com/YEAR/day/24) |  |  |
+| [Day 25](https://adventofcode.com/YEAR/day/25) |  |  |
+<!--- advent_readme_stars table --->
+<!--- benchmarking table --->
+## Benchmarks
+
+<!--- fill in value. here's the units for handy reference: µs, ms, s --->
+| Day | Part 1 | Part 2 |
+| :---: | :---: | :---:  |
+| [Day 1](./src/Days/Day01.hs) | | |
+| [Day 2](./src/Days/Day02.hs) | | |
+| [Day 3](./src/Days/Day03.hs) | | |
+| [Day 4](./src/Days/Day04.hs) | | |
+| [Day 5](./src/Days/Day05.hs) | | |
+| [Day 6](./src/Days/Day06.hs) | | |
+| [Day 7](./src/Days/Day07.hs) | | |
+| [Day 8](./src/Days/Day08.hs) | | |
+| [Day 9](./src/Days/Day09.hs) | | |
+| [Day 10](./src/Days/Day10.hs) | | |
+| [Day 11](./src/Days/Day11.hs) | | |
+| [Day 12](./src/Days/Day12.hs) | | |
+| [Day 13](./src/Days/Day13.hs) | | |
+| [Day 14](./src/Days/Day14.hs) | | |
+| [Day 15](./src/Days/Day15.hs) | | |
+| [Day 16](./src/Days/Day16.hs) | | |
+| [Day 17](./src/Days/Day17.hs) | | |
+| [Day 18](./src/Days/Day18.hs) | | |
+| [Day 19](./src/Days/Day19.hs) | | |
+| [Day 20](./src/Days/Day20.hs) | | |
+| [Day 21](./src/Days/Day21.hs) | | |
+| [Day 22](./src/Days/Day22.hs) | | |
+| [Day 23](./src/Days/Day23.hs) | | |
+| [Day 24](./src/Days/Day24.hs) | | |
+| [Day 25](./src/Days/Day25.hs) | | |
+
+**Total: **
+<!--- benchmarking table --->
 
 This is a fork of [samcoy3's for their haskell starter repo](https://github.com/samcoy3/advent-of-code-template) with some changes and scripts for my usage.
 
